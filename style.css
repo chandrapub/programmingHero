@@ -1,9 +1,11 @@
 body {
-    margin: 2rem;
+    margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
-
+.container {
+    margin: 2rem 4rem;
+}
 .profile-part {
     display: flex;
     margin: 2rem 3rem;
@@ -19,10 +21,12 @@ body {
     padding-left: 1rem;
 }
 .profile-image {
-    width: 70%;
-    height: 60%;
-    border: 2rem solid goldenrod; 
+    width: 100%;
+    height: 80%;
+    /* border-width: 4rem; */
     border-radius: 50%;
+    border: 2rem solid #EEF3F3; 
+    
 }
 .mission-2022{
     color: gold;
@@ -31,7 +35,7 @@ body {
     font-size: 1.2rem;
     margin: 0 2rem 2.5rem 0;
 }
-.reach-me {
+.reach-detail {
     background: linear-gradient(#e66465, #9198e5);
     /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
     margin: 3rem 1rem 1rem 0rem; 
@@ -52,7 +56,7 @@ body {
 }
 .mission-vision-goals {
     display: flex;
-    margin:2rem 0 0 0;
+    margin:2rem 2rem 1.2rem 2rem;
 }
 .mission {
     width: 30%;
@@ -86,13 +90,28 @@ body {
 
 }
 .coding-img {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin: 2rem 1.5rem 1rem 2rem;
 
 }
+.coding-design-shape {
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 6rem;
+    background-position-x: 1px;
+    background-size: 15rem;
+}
 .coding-section {
     display: flex;
+    margin: 2rem 2rem;
+    
+    
+ }
+ .coding-description, project-description {
+     margin: 2rem 2rem;
+     padding: 2rem 2rem;
  }
 .heading-headline {
     font-size: 3rem;
@@ -102,10 +121,16 @@ body {
 .project-title{
     text-align: left;
     font-size: 3rem;
+    font-weight: bold;
+    margin-left: 2rem;
 }
 .sin-project-title{
     font-size: 1.5rem;
     font-weight: bold;
+}
+.all-projects {
+    margin: 2rem 1rem 2rem 4rem;
+    padding: 2rem 2rem;
 }
 .projects {
     display: flex;
@@ -118,7 +143,26 @@ body {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     border: 1px solid yellow;
     margin: 1rem 1.5rem;
-    padding: 1rem 1rem;
-    
+    padding: 1rem 1.5rem 2rem 1.5rem;
     text-align: center;
+}
+.footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+}
+.footer-mission{
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+.footer-2022{
+    color: red;
+}
+.github-link, .linkedin-link {
+    text-decoration: none;
+    color: white;
 }

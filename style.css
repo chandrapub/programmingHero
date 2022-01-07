@@ -1,0 +1,124 @@
+body {
+    margin: 2rem;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.profile-part {
+    display: flex;
+    margin: 2rem 3rem;
+
+}
+.profile-text {
+    padding: 1rem 2rem;
+}
+.profile-headline {
+    font-size: 4rem;
+    font-weight: bold;
+    border-left: .5rem solid red;
+    padding-left: 1rem;
+}
+.profile-image {
+    width: 70%;
+    height: 60%;
+    border: 2rem solid goldenrod; 
+    border-radius: 50%;
+}
+.mission-2022{
+    color: gold;
+}
+.description-text{
+    font-size: 1.2rem;
+    margin: 0 2rem 2.5rem 0;
+}
+.reach-me {
+    background: linear-gradient(#e66465, #9198e5);
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    margin: 3rem 1rem 1rem 0rem; 
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.mission-headline{
+    font-size: 4rem;
+    font-weight: bold;
+    /* border-left: .5rem solid red; */
+    padding-left: 1rem;
+    text-align: center;
+}
+.mission-vision-goals {
+    display: flex;
+    margin:2rem 0 0 0;
+}
+.mission {
+    width: 30%;
+    background-color: #EEF3F3;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+.vission {
+    width: 30%;
+    background-color: #FDECE7;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+.goals {
+    width: 30%;
+    background-color: #FBF5D8;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+.mission-subheadline, .vission-subheadline, .goals-subheadline {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mission-img, .vission-img, .goals-img {
+    width: 12rem;
+    height: 12rem;
+
+}
+.coding-img {
+    width: 80%;
+    height: 80%;
+    margin: 2rem 1.5rem 1rem 2rem;
+
+}
+.coding-section {
+    display: flex;
+ }
+.heading-headline {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.project-title{
+    text-align: left;
+    font-size: 3rem;
+}
+.sin-project-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 2rem;
+}
+.projects > .project {
+    width: 25%;
+    height: 20rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border: 1px solid yellow;
+    margin: 1rem 1.5rem;
+    padding: 1rem 1rem;
+    
+    text-align: center;
+}
